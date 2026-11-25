@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #175D99;
+  --color-brand-blue-dark: #104472;
+  --color-brand-blue-deep: #081321;
+  --color-brand-blue-tint: #EAF2FA;
+  --color-brand-red: #D03231;
+  --color-brand-red-dark: #A92322;
+  --color-slate-ink: #0B121B;
+  --color-slate-muted: #475569;
+  --color-concrete: #F6F8FB;
+  --color-hairline: #DCE3EC;
+
+  --font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    color: var(--color-slate-ink);
+    background-color: #ffffff;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tech {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Subtle architectural blueprint grid overlay */
+.bg-blueprint-grid {
+  background-image:
+    linear-gradient(to right, rgba(23, 93, 153, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 93, 153, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.bg-blueprint-grid-dark {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* Custom scrollbar for refined corporate polish */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #175D99;
+}
