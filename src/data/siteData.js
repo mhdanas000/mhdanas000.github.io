@@ -11,11 +11,11 @@ export const COMPANY_INFO = {
     'Delivering innovative construction solutions and sustainable infrastructure through engineering excellence, precision, and commitment.',
   // Editable placeholder contact details
   contact: {
-    addressLine1: '[Luxury Complex, 87,A.R.R Road]',
+    addressLine1: '[Luxury Complex, 87,A.R.R]',
     addressLine2: '[City, Region / Postal Code — Update Address]',
     phone: '+91-9500215939',
     whatsappNumber: '9500215939', // digits only for wa.me link
-    email: 'info@ecolux-contracting.example',
+    email: 'ecoandlux@gmail.com',
     officeHours: 'Mon – Sat | 08:00 – 18:00',
     mapCoordinatesLabel: 'LAT 00.0000° N  /  LON 00.0000° E (Placeholder)',
     googleMapsUrl: 'https://maps.google.com',
